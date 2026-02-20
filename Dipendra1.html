@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipendra | Frontend Developer</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #e0f7fa, #fff);
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 50px;
+            min-height: 100vh;
+        }
+
+        /* Home */
+        .home {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url('Myimage.jpeg') center/cover no-repeat;
+            color: white;
+        }
+
+        .home h1 span {
+            color: #ff4081;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* About */
+        .about p {
+            max-width: 600px;
+            margin: 20px auto 0;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Skills */
+        .skills .skill-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .skills .skill-box span {
+            background: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+
+        /* Projects */
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .project-card a {
+            display: inline-block;
+            margin: 5px 10px;
+            color: #ff4081;
+            font-weight: bold;
+        }
+
+        /* Contact */
+        .contact p {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+        }
+
+        /* Responsive */
+        @media(max-width:768px){
+            nav {
+                flex-direction: column;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Dipendra</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <h1>Hi, I'm <span>Dipendra</span></h1><br>
+        <h2>Frontend Developer</h2><br>
+        <p>BIM Student learning to build clean & responsive websites</p><br>
+        <a href="#projects" class="btn">View Projects</a><br>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+           <section id="about" class="about">
+    <h2>About Me</h2>
+    <p><text-align right></text-align>
+        Hello! My name is Dipendra, and I am a passionate frontend developer and a dedicated BIM student. Ever since I started exploring web development, I have been fascinated by the ability to transform ideas into interactive, visually appealing, and user-friendly websites. My journey into the world of coding began with HTML and CSS, where I learned the fundamentals of web structure, styling, and layout. Over time, I expanded my knowledge to JavaScript, which allowed me to add interactivity and dynamic features to the websites I create. This combination of creativity and logic has always inspired me to continually learn and improve my skills.  
+
+        I am particularly interested in building responsive websites that work seamlessly across all devices. I enjoy leveraging technologies like Flexbox and CSS Grid to create flexible and modern layouts. Understanding user experience is one of my priorities, so I always focus on clean design, intuitive navigation, and smooth interactions. Through personal projects and coursework, I have honed my abilities to design layouts, implement interactive elements, and optimize performance for faster and more efficient websites.  
+
+  
+    </p>
+</section>
+
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-box">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal responsive portfolio using HTML, CSS & JS.</p>
+            <a href="#">Live Demo</a>
+            <a href="#">GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do List</h3>
+            <p>Simple task manager built with JavaScript.</p>
+            <a href="#">Live Demo</a>
+            <a href="#">GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <p>Basic calculator using HTML, CSS & JavaScript.</p>
+            <a href="#">Live Demo</a>
+            <a href="#">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: dipendra306@email.com</p>
+        <p>Contact: 9813033367 </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026  | Frontend Developer</p>
+    </footer>
+
+</body>
+</html>
